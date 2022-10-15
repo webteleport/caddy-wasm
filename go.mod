@@ -1,4 +1,4 @@
-module caddy-wasm
+module github.com/webteleport/caddy-wasm
 
 go 1.19
 
