@@ -13,7 +13,7 @@ func TestWasm(t *testing.T) {
 	tester := caddytest.NewTester(t)
 	tester.InitServer(config, "caddyfile")
 
-	tester.AssertGetResponse("http://localhost:8080/v1.0/hi", 200, "Hello /v1.0/hello")
+	tester.AssertGetResponse("http://localhost:8080/v1.0/hi?name=panda", 200, "Hello /v1.0/hello")
 }
 
 func init() {
