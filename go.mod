@@ -3,8 +3,8 @@ module github.com/webteleport/caddy-wasm
 go 1.19
 
 require (
-	github.com/caddyserver/caddy/v2 v2.6.1
-	github.com/http-wasm/http-wasm-host-go v0.2.0
+	github.com/caddyserver/caddy/v2 v2.6.2
+	github.com/http-wasm/http-wasm-host-go v0.3.0
 )
 
 require (
@@ -96,7 +96,7 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
 	github.com/tailscale/tscert v0.0.0-20220316030059-54bbcb9f74e2 // indirect
-	github.com/tetratelabs/wazero v1.0.0-pre.4 // indirect
+	github.com/tetratelabs/wazero v1.0.0-pre.6 // indirect
 	github.com/urfave/cli v1.22.5 // indirect
 	github.com/yuin/goldmark v1.4.13 // indirect
 	github.com/yuin/goldmark-highlighting v0.0.0-20220208100518-594be1970594 // indirect
